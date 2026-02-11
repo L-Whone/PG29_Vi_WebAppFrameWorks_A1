@@ -9,15 +9,15 @@ This is a simple Vue single page app
 It has:
 
 * Landing Page with a Counter Component
-* Leaderboard 
+* Leaderboard
 
-&nbsp;	- Can reset leaderboard 
+ 	- Can reset leaderboard
 
-&nbsp;	- Can add new players random score
+ 	- Can add new players random score
 
 * Contact page
 
-&nbsp;	- Can only submit feedback if all input fields are filled out
+ 	- Can only submit feedback if all input fields are filled out
 
 * About Page
 
@@ -34,3 +34,11 @@ npm instal vite@latest
 npm instal tsx
 
 * npm run dev     on back end then front end
+
+
+
+What i made:
+
+* The Leaderboard Page and components
+* The Contact Page and components
+* The backend Get and Posts

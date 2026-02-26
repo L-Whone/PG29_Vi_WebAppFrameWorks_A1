@@ -8,7 +8,9 @@
 
     async function addPlayer() {
         await fetch("http://localhost:3000/api/leaderboard", {
-            method: "POST"
+            method: "POST",
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({player: ""})
         })
 
         emit("player-added")
